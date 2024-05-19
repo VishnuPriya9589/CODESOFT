@@ -1,0 +1,7 @@
+ create table accounts
+ (
+    account_number int auto_increment primary key,
+    name char(255) not null,
+    pin int not null,
+    balance double(10,2) not null default 0.0
+);
